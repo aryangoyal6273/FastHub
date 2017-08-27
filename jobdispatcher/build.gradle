@@ -1,5 +1,4 @@
 apply plugin: "com.android.library"
-apply plugin: 'ManifestClasspath'
 
 android {
     compileSdkVersion 26
@@ -79,3 +78,5 @@ task aar(dependsOn: "assembleRelease") {
     group "artifact"
     description "Builds the library AARs"
 }
+
+apply plugin: 'ManifestClasspath'
