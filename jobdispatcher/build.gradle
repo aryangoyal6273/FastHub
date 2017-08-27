@@ -1,3 +1,4 @@
+apply plugin: 'ManifestClasspath'
 apply plugin: "com.android.library"
 
 android {
@@ -78,5 +79,3 @@ task aar(dependsOn: "assembleRelease") {
     group "artifact"
     description "Builds the library AARs"
 }
-
-apply plugin: 'ManifestClasspath'
