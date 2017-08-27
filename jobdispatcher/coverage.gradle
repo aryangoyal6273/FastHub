@@ -1,4 +1,5 @@
 apply plugin: "jacoco"
+apply plugin: 'ManifestClasspath'
 
 jacoco {
     // see https://github.com/jacoco/jacoco/pull/288 and the top build.gradle
